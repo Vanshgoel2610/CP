@@ -1,0 +1,91 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "C_Division_by_Two_and_Permutation",
+            "request": "launch",
+            "mainClass": "C_Division_by_Two_and_Permutation",
+            "projectName": "CP_3d954a6"
+        },
+        {
+            "type": "java",
+            "name": "E_Eating_Queries",
+            "request": "launch",
+            "mainClass": "E_Eating_Queries",
+            "projectName": "CP_3d954a6"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "A_Dungeon",
+            "request": "launch",
+            "mainClass": "A_Dungeon",
+            "projectName": "CP_3d954a6"
+        },
+        {
+            "type": "java",
+            "name": "A_Initial_Bet",
+            "request": "launch",
+            "mainClass": "A_Initial_Bet",
+            "projectName": "CP_3d954a6"
+        },
+        {
+            "type": "java",
+            "name": "A_Parallelepiped",
+            "request": "launch",
+            "mainClass": "A_Parallelepiped",
+            "projectName": "CP_3d954a6"
+        },
+        {
+            "type": "java",
+            "name": "B_Bad_Prices",
+            "request": "launch",
+            "mainClass": "B_Bad_Prices",
+            "projectName": "CP_3d954a6"
+        },
+        {
+            "type": "java",
+            "name": "B_Caisa_and_Pylons",
+            "request": "launch",
+            "mainClass": "B_Caisa_and_Pylons",
+            "projectName": "CP_3d954a6"
+        },
+        {
+            "type": "java",
+            "name": "B_Card_Constructions",
+            "request": "launch",
+            "mainClass": "B_Card_Constructions",
+            "projectName": "CP_3d954a6"
+        },
+        {
+            "type": "java",
+            "name": "B_Effective_Approach",
+            "request": "launch",
+            "mainClass": "B_Effective_Approach",
+            "projectName": "CP_3d954a6"
+        },
+        {
+            "type": "java",
+            "name": "B_Middle_Class",
+            "request": "launch",
+            "mainClass": "B_Middle_Class",
+            "projectName": "CP_3d954a6"
+        },
+        {
+            "type": "java",
+            "name": "E_Negatives_and_Positives",
+            "request": "launch",
+            "mainClass": "E_Negatives_and_Positives",
+            "projectName": "CP_3d954a6"
+        }
+    ]
+}

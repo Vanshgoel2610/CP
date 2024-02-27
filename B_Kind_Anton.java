@@ -45,5 +45,6 @@ public class B_Kind_Anton {
             if(finish) System.out.println("NO");
             else System.out.println("YES");
         }
+        sc.close();
     }
 }

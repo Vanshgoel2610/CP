@@ -14,5 +14,6 @@ public class B_Tavas_and_SaDDas {
             position--;
         }
         System.out.println(ans);
+        sc.close();
     }
 }

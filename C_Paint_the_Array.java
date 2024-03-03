@@ -49,5 +49,6 @@ public class C_Paint_the_Array {
             if(!flag) System.out.println(even);
             else System.out.println(0);
         }
+        sc.close();
     }
 }

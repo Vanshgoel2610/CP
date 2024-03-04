@@ -25,5 +25,6 @@ public class D_Coprime {
             }
             System.out.println(ans);
         }
+        sc.close();
     }
 }

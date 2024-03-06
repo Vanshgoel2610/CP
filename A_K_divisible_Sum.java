@@ -29,5 +29,6 @@ public class A_K_divisible_Sum {
                 }
             }
         }
+        sc.close();
     }
 }

@@ -1,8 +1,8 @@
 /*   कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्माणि॥ 2-47॥   */
- 
+
 import java.util.*;
- 
-public class Ques {
+
+public class B_BerSU_Ball {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         ArrayList<Integer> boys = new ArrayList<>();

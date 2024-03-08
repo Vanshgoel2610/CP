@@ -1,32 +1,34 @@
 /*   कर्मण्येवाधिकारस्ते मा फलेषु कदाचन। मा कर्मफलहेतुर्भूर्मा ते सङ्गोऽस्त्वकर्माणि॥ 2-47॥   */
-
+ 
 import java.util.*;
-
-public class B_BerSU_Ball {
+ 
+public class Ques {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        ArrayList<Integer> boys = new ArrayList<>();
+        ArrayList<Integer> girls = new ArrayList<>();
         int n = sc.nextInt();
-        int[] boys = new int[n];
         int i = -1;
-        while(++i < n) boys[i] = sc.nextInt();
+        while(++i < n) boys.add(sc.nextInt());
+        Collections.sort(boys);
         int m = sc.nextInt();
-        int[] girls = new int[m];
         i = -1;
-        while(++i < m) girls[i] = sc.nextInt();
-        Arrays.sort(boys);
-        Arrays.sort(girls);
-        int sum = 0;
+        while(++i < m) girls.add(sc.nextInt());
+        int count = 0;
         for(i = 0; i < n; i++) {
-            for(int j = 0; j < m; j++) {
-                if(Math.abs(boys[i]-girls[j]) <= 1) {
-                    sum++;
-                    girls[j] = 102;
-                    break;
-                }
+            int temp = boys.get(i);
+            if(girls.contains(temp-1)) {
+                count++;
+                girls.remove((Integer)(temp-1));
+            } else if(girls.contains(temp)) {
+                count++;
+                girls.remove((Integer)temp);
+            } else if(girls.contains(temp+1)) {
+                count++;
+                girls.remove((Integer)(temp+1));
             }
         }
-
-        System.out.println(sum);
+        System.out.println(count);
         sc.close();
     }
 }

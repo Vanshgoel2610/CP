@@ -39,3 +39,38 @@ public class B_Worms {
         sc.close();
     }
 }
+
+/*  This is C++ code for the problem
+ * #include <iostream>
+#include <vector>
+using namespace std;
+
+int main() {
+    int n;
+    cin >> n;
+    vector<int> list(1, 0); // Initialize with 0
+        5
+        2 7 3 4 9
+        3
+        1 25 11
+        Approach:- first 1 and 2 are in the first pile and 3 to 9 are in the 2nd pile and soon
+        arr[1] = 1, arr[2] = 1, arr[3] = 2 ... arr[9] = 2, arr[10] = 3,.....
+    int pile = 1;
+    while (n--) {
+        int worms;
+        cin >> worms;
+        for (int i = 0; i < worms; i++)
+            list.push_back(pile);
+        pile++;
+    }
+    int m;
+    cin >> m;
+    while (m--) {
+        int index;
+        cin >> index;
+        cout << list[index] << endl;
+    }
+    return 0;
+}
+
+ */

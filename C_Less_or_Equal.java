@@ -14,6 +14,7 @@ public class C_Less_or_Equal {
         if(k == 0) {
             if(arr[0] > 1) System.out.println(1);
             else System.out.println(-1);
+            sc.close();
             return;
         }
         long ans = arr[k-1];

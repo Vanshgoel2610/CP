@@ -3,7 +3,7 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-public class A_Counting_Orders {
+public class Ques {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
@@ -21,8 +21,10 @@ public class A_Counting_Orders {
             int j = 0;
             i = -1;
             while(++i < n) {
+                if(i == j && a[j] <= b[j]) break;           // not necessary
                 while(j < n && a[j] <= b[i]) j++;
                 if(j != n) count[i] = n-j;
+                else break;         // not necessary
             }
             Arrays.sort(count);
             long ans = 1;
@@ -30,6 +32,7 @@ public class A_Counting_Orders {
             i = -1;
             while(++i < n) {
                 ans = ((ans%mod)*((count[i]-i)%mod))%mod;
+                if(ans == 0) break;         // not necessary
             }
             System.out.println(ans);
         }

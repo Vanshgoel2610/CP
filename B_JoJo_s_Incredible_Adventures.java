@@ -2,7 +2,7 @@
 
 import java.util.Scanner;
 
-public class Ques {
+public class B_JoJo_s_Incredible_Adventures {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();

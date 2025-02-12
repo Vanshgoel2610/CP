@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class Ques {
+public class B_Marvolo_Gaunt_s_Ring {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 //        https://codeforces.com/problemset/problem/855/B

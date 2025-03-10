@@ -2,7 +2,7 @@
 
 import java.util.*;
 
-public class B_Having_Been_a_Treasurer_in_the_Past_I_Help_Goblins_Deceive {
+public class B_Having_Been_a_Treasurer_in_the_Past_I_Help_Goblins_Deceive { 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
 
